@@ -1,0 +1,2 @@
+class Postulacion < ApplicationRecord
+end

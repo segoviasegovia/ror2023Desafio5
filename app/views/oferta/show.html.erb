@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @ofertum %>
+
+<div>
+  <%= link_to "Edit this ofertum", edit_ofertum_path(@ofertum) %> |
+  <%= link_to "Back to oferta", oferta_path %>
+
+  <%= button_to "Destroy this ofertum", @ofertum, method: :delete %>
+</div>
